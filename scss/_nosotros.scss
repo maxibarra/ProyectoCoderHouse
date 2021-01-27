@@ -1,0 +1,52 @@
+.nosotros{
+
+    @extend .imagenFondo;
+
+    .contenedorNos{
+        @extend .medidas;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .recuadroTitulo{
+            border: 2px solid $negro;
+            padding: 10px;
+            text-align: center;
+            width: 70%;
+            margin: 10px 0px;
+                hr{
+                    background: $negro;
+                    width: 50%;
+                    height: 3px;
+                    margin: 10px auto; 
+                }
+                h1{
+                    font-size: 40px;
+                    color: $negro;
+                    font-weight: 700;
+                    margin:10px;
+                    text-transform: capitalize;
+                }
+            }
+    }
+       
+    p{
+        font-weight: 800;
+        padding-top:20px;
+        color:$negro;
+        line-height:1.6;
+        margin:10px;
+    }
+    .imagenesNos{
+        img{
+        height:250px;
+        margin: 40px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px $negro;
+        }
+        img:hover{
+            transform:scale(1,2);
+            display:inline-block;
+        }
+    }
+}

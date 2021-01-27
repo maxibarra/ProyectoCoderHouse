@@ -1,0 +1,54 @@
+.contacto{
+    @extend .imagenFondo;
+    
+    .contenedorContacto{
+        @extend .medidas;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .recuadroTitulo{
+            border: 2px solid $negro;
+            padding: 10px;
+            text-align: center;
+            width: 70%;
+            margin:15px;
+            hr{
+                background: $negro;
+                width: 50%;
+                height: 3px;
+                margin: 10px auto;
+            }
+            h1{
+                font-size: 40px;
+                color: $negro;
+                font-weight: 700;
+                margin:15px;
+                text-transform: capitalize;
+            }
+        }
+    }
+    p{
+        color:$negro;
+        font-size:25px;
+        font-weight:600;
+        line-height: 1.5;
+        padding:20px;
+    }
+    .btn{
+        background:$verde;
+        color:#000;  
+    }
+    .btn:hover{
+        background:$negro;
+        color:$verde;
+    }
+}
+
+input, textarea{
+    border-radius: 15px !important;
+    border: 0px !important;
+}
+textarea{
+    height: 150px !important;
+}

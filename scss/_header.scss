@@ -1,0 +1,33 @@
+nav{
+    background: rgba(0,0,0,0.4);
+    ul{
+        li{
+            a{
+                color:#fff;
+                font-size:20px;
+                font-weight: 500;
+                text-decoration:none;
+                text-transform: capitalize; 
+                
+            }
+            a:hover{
+                background:$verde;
+                color:$negro;
+            }
+        }
+    }
+   .nav-bar{
+        text-align:right;
+        margin:20px;
+    } 
+    .nav-item{
+        display:inline-block;
+        margin-left:2em;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background:$verde;
+    color:$negro;
+}
+

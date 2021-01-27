@@ -1,0 +1,28 @@
+.informacion{
+    background: linear-gradient(to left, #536976, #292e49);
+    padding:15px;
+
+    h2{
+        font-size:25px;
+        color:white;
+        font-weight:700;
+        text-transform: capitalize;
+        text-align:center;
+    }
+    .redes{
+        a{
+            text-decoration:none;
+            color:#fff;
+            font-size:18px;
+        }
+    }
+    p{
+        font-size:20px;
+        color:#fff; 
+    }
+    .horarios{
+        p{
+            text-align:center;
+        }
+    }
+}

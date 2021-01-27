@@ -1,0 +1,59 @@
+@mixin sizes ($width,$height){
+    height:$height;
+    width:$width;
+}
+
+.ubicacion{
+   @include sizes (100%,100%);
+   
+   @extend .imagenFondo;
+
+    .contenedorUbi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+        .recuadroTitulo{
+            border: 2px solid $negro;
+            padding: 10px;
+            text-align: center;
+            width: 70%;
+            margin: 10px;
+            hr{
+                background: $negro;
+                width: 40%;
+                height: 3px;
+                margin: 10px auto;  
+            }
+            h1{
+                font-size: 40px;
+                color:$negro;
+                font-weight: 700;
+                margin:10px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+.mapa iframe{
+    box-shadow:4px 4px 5px  $negro;
+}
+
+.direccion{
+    height:550px;
+    display:grid;
+    align-items:center;
+    padding:20px;
+    p{
+        color:$negro;
+        font-size:30px;
+        font-weight:700;
+        cursor:pointer;
+        line-height:1.5;
+        i{
+            color:red;
+            font-size:30px;
+        }
+    }
+}

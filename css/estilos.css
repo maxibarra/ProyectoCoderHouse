@@ -1,0 +1,304 @@
+nav {
+  background: rgba(0, 0, 0, 0.4); }
+  nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize; }
+  nav ul li a:hover {
+    background: #1efd00;
+    color: #000; }
+  nav .nav-bar {
+    text-align: right;
+    margin: 20px; }
+  nav .nav-item {
+    display: inline-block;
+    margin-left: 2em; }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: #1efd00;
+  color: #000; }
+
+.imgMain {
+  width: 100%;
+  height: 100%;
+  background: url(../imagenes/carpinteria4.jpg);
+  background-position: center;
+  background-size: cover; }
+  .imgMain .home {
+    width: 100%;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .imgMain .home h1 {
+      color: #1efd00;
+      font-family: 'Nunito', sans-serif;
+      font-size: 60px;
+      text-transform: capitalize;
+      font-weight: 700; }
+    .imgMain .home h3 {
+      color: white;
+      font-size: 30px; }
+
+button {
+  width: 170px;
+  height: 40px;
+  transition: widht 1s;
+  background: #1efd00;
+  border-radius: 24px;
+  border: none;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer; }
+
+button:hover {
+  width: 200px;
+  font-size: 27px; }
+
+hr {
+  width: 400px;
+  height: 3px;
+  background: #fff;
+  border: none;
+  margin-top: 5px; }
+
+.nosotros .contenedorNos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .nosotros .contenedorNos .recuadroTitulo {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 10px 0px; }
+    .nosotros .contenedorNos .recuadroTitulo hr {
+      background: #000;
+      width: 50%;
+      height: 3px;
+      margin: 10px auto; }
+    .nosotros .contenedorNos .recuadroTitulo h1 {
+      font-size: 40px;
+      color: #000;
+      font-weight: 700;
+      margin: 10px;
+      text-transform: capitalize; }
+
+.nosotros p {
+  font-weight: 800;
+  padding-top: 20px;
+  color: #000;
+  line-height: 1.6;
+  margin: 10px; }
+
+.nosotros .imagenesNos img {
+  height: 250px;
+  margin: 40px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #000; }
+
+.nosotros .imagenesNos img:hover {
+  transform: scale(1, 2);
+  display: inline-block; }
+
+.galeria {
+  background: url(../imagenes/foto7.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+  .galeria .containerGaleria {
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .galeria .containerGaleria .recuadroTitulo {
+      border: 2px solid #fff;
+      padding: 10px;
+      text-align: center;
+      width: 70%;
+      margin: 10px 0px; }
+      .galeria .containerGaleria .recuadroTitulo hr {
+        background: #fff;
+        width: 50%;
+        height: 3px;
+        margin: 10px auto; }
+      .galeria .containerGaleria .recuadroTitulo h1 {
+        font-size: 40px;
+        color: #fff;
+        font-weight: 700;
+        margin: 10px;
+        text-transform: capitalize; }
+    .galeria .containerGaleria .proyectos {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 80px;
+      padding-bottom: 70px; }
+    .galeria .containerGaleria img {
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 60em;
+      height: 30em;
+      box-shadow: 5px 5px 3px; }
+  .galeria p {
+    color: #fff;
+    margin: 30px 0 30px 0; }
+    .galeria p a {
+      color: white;
+      text-decoration: none; }
+    .galeria p :hover {
+      color: red;
+      text-decoration: underline;
+      font-size: 25px; }
+
+.ubicacion {
+  height: 100%;
+  width: 100%; }
+  .ubicacion .contenedorUbi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px; }
+    .ubicacion .contenedorUbi .recuadroTitulo {
+      border: 2px solid #000;
+      padding: 10px;
+      text-align: center;
+      width: 70%;
+      margin: 10px; }
+      .ubicacion .contenedorUbi .recuadroTitulo hr {
+        background: #000;
+        width: 40%;
+        height: 3px;
+        margin: 10px auto; }
+      .ubicacion .contenedorUbi .recuadroTitulo h1 {
+        font-size: 40px;
+        color: #000;
+        font-weight: 700;
+        margin: 10px;
+        text-transform: capitalize; }
+
+.mapa iframe {
+  box-shadow: 4px 4px 5px #000; }
+
+.direccion {
+  height: 550px;
+  display: grid;
+  align-items: center;
+  padding: 20px; }
+  .direccion p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 1.5; }
+    .direccion p i {
+      color: red;
+      font-size: 30px; }
+
+.contacto .contenedorContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .contacto .contenedorContacto .recuadroTitulo {
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 15px; }
+    .contacto .contenedorContacto .recuadroTitulo hr {
+      background: #000;
+      width: 50%;
+      height: 3px;
+      margin: 10px auto; }
+    .contacto .contenedorContacto .recuadroTitulo h1 {
+      font-size: 40px;
+      color: #000;
+      font-weight: 700;
+      margin: 15px;
+      text-transform: capitalize; }
+
+.contacto p {
+  color: #000;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 20px; }
+
+.contacto .btn {
+  background: #1efd00;
+  color: #000; }
+
+.contacto .btn:hover {
+  background: #000;
+  color: #1efd00; }
+
+input, textarea {
+  border-radius: 15px !important;
+  border: 0px !important; }
+
+textarea {
+  height: 150px !important; }
+
+.informacion {
+  background: linear-gradient(to left, #536976, #292e49);
+  padding: 15px; }
+  .informacion h2 {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center; }
+  .informacion .redes a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px; }
+  .informacion p {
+    font-size: 20px;
+    color: #fff; }
+  .informacion .horarios p {
+    text-align: center; }
+
+footer {
+  background: linear-gradient(to top, #141e30, #243b55);
+  padding-bottom: 3px; }
+  footer .whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 20px; }
+  footer p {
+    text-align: center;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 15px; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.fa-clock, .fa-envelope-open,
+.fa-instagram, .fa-mobile-alt {
+  font-size: 30px;
+  color: #fff; }
+
+.fa-whatsapp {
+  font-size: 50px;
+  color: #1efd00; }
+
+.imagenFondo, .nosotros, .ubicacion, .contacto {
+  background: url(../imagenes/fondo4.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+.medidas, .nosotros .contenedorNos, .galeria, .galeria .containerGaleria, .contacto .contenedorContacto {
+  width: 100%;
+  height: 100%; }
