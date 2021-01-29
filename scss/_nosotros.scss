@@ -45,8 +45,9 @@
         box-shadow: 5px 5px 5px $negro;
         }
         img:hover{
-            transform:scale(1,2);
+            transform:scale(2,2);
             display:inline-block;
+            cursor:pointer;
         }
     }
 }
