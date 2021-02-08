@@ -28,7 +28,10 @@
                 color: #fff;
                 font-weight: 700;
                 margin:10px;
-                text-transform: capitalize
+                text-transform: capitalize;
+               @media(max-width:576px){
+                   font-size:30px;
+               }
             }
         }
         .proyectos{
@@ -43,9 +46,13 @@
             margin: 10px;
             border-radius: 10px;
             cursor: pointer;
-            width: 60em;
-            height:35em;
+            width: 45em;
+            height:29em;
             box-shadow:5px 5px 3px;
+            @media(max-width:576px){
+                width:18em;
+                height:20em;
+            }
         }
     }  
     p{

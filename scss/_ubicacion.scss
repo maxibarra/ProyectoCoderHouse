@@ -39,6 +39,10 @@
 .mapa iframe{
     box-shadow:4px 4px 5px  $negro;
     margin:5px;
+    @media(max-width:576px){
+        width:300px; 
+        height:450px;
+    }
 }
 
 .direccion{
@@ -51,7 +55,7 @@
         font-size:30px;
         font-weight:700;
         cursor:pointer;
-        line-height:1.5;
+        line-height:1.4;
         i{
             color:red;
             font-size:30px;

@@ -4,6 +4,10 @@
     background: url(../imagenes/carpinteria4.jpg);
     background-position: center;
     background-size: cover;
+    
+    @media(max-width:576px){
+        height:110vh;    
+    }
     .home{
         width:100%;
         height:90vh;
@@ -12,42 +16,83 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        
         h1{
             color:$verde;
             font-family: 'Nunito', sans-serif;
             font-size:60px;
             text-transform: capitalize;
             font-weight: 700;
+            
+            @media(max-width:576px){
+                text-align:center;
+                font-size:50px;
+            }
         }
+       
         h3{
             color:white;
             font-size:30px; 
+            @media(max-width:576px){
+                font-size:25px;
+            }
         }
     }
 }
-
-button{
-    width: 170px;
-    height: 40px;
-    transition:widht 1s;
-    background:$verde;
-    border-radius: 24px;
+.Button {
+    background-color: transparent;
+    outline: none;
     border: none;
-    font-size: 22px;
-    text-align: center;
+    padding: 12px 24px;
+    line-height: 14px;
+    font-size:24px;
+    position: relative;
+    overflow: hidden;
     cursor: pointer;
-
-   
-}
-button:hover{
-    width:200px;
-    font-size:27px;
-}
+  }
+  
+  .btnPrincipal {
+    border: 2px solid $verde;
+    border-radius: 16px;
+    color: $verde;
+    transition: all 0.5s ease 0.10s;
+  }
+  .btnPrincipal:hover {
+    color: $negro;
+    background-color:$verde;
+  }
+  
+  .btnPrincipal::before,
+  .btnPrincipal::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+  }
+  .btnPrincipal::before {
+    background-color: $negro;
+    right: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+  }
+  .btnPrincipal::after {
+    background-color: $verde;
+    left: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease-out 0.10s;
+  }
+  .btnPrincipal:hover::after {
+    transform: translateX(0);
+  }
+  .btnPrincipal:hover::before {
+    transform: translateX(0);
+  }
 
 hr{
-    width: 400px;
-    height: 4px;
+    width: 300px;
     background: #fff;
     border: none;
-   
+   opacity: 2;
 }
