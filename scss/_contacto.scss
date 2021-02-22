@@ -11,7 +11,7 @@
             border: 2px solid $negro;
             padding: 10px;
             text-align: center;
-            width: 70%;
+            width: 60%;
             margin:15px;
             hr{
                 background: $negro;
@@ -31,13 +31,12 @@
     p{
         color:$negro;
         font-size:25px;
-        font-weight:600;
         line-height: 1.5;
         padding:20px;
     }
     .btn{
         background:$verde;
-        color:#000;  
+        color:$negro;  
     }
     .btn:hover{
         background:$negro;

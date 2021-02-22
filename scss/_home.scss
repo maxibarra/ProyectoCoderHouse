@@ -1,22 +1,22 @@
 .imgMain{
-    width: 100%;
-    height: 100vh;
-    background: url(../imagenes/carpinteria4.jpg);
+    height: 110vh;
+    background-image: url(../imagenes/carpinteria4.jpg);
+    background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
     
-    @media(max-width:576px){
-        height:110vh;    
-    }
     .home{
-        width:100%;
         height:90vh;
-        background: rgba(0,0,0,0.4);
+        background: rgba(0,0,0,0.5);
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         
+        @media(max-width:576px){
+          background-image: url(../imagenes/carpinteria4.jpg);
+          background: rgba(0,0,0,0.4);
+        }
         h1{
             color:$verde;
             font-family: 'Nunito', sans-serif;

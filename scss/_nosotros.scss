@@ -31,7 +31,7 @@
     }
        
     p{
-        font-weight: 800;
+       
         padding-top:20px;
         color:$negro;
         line-height:1.6;
@@ -39,13 +39,12 @@
     }
     .imagenesNos{
         img{
-        height:250px;
-        margin: 40px;
+        height:350px;
+        margin: 5px;
         border-radius: 10px;
         box-shadow: 5px 5px 5px $negro;
         }
-        img:hover{
-            transform:scale(2,2);
+        :hover{
             display:inline-block;
             cursor:pointer;
         }

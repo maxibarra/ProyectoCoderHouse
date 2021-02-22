@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Dedicados a la fabricación de muebles
             a medida en cualquier tipo de madera y melaminas.">
-        <meta name="keywords" content="Carpinteria,fabricacion de muebles,Maderera,melaminas">
+        <meta name="keywords" content="Carpinteria,fabricación de muebles,Maderera,melaminas">
         <link rel="stylesheet"
             href="css/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.min.css">
         <link rel="stylesheet"
@@ -14,6 +14,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             />
+        
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/estilos.css">
         <title>Carpinteria Max | Contacto</title>
@@ -56,7 +57,7 @@
         </header>
 
         <section class="contacto">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-12 contenedorContacto">
                         <div class="recuadroTitulo">
@@ -74,7 +75,7 @@
                     </div>
 
                     <div class="col-12 col-sm-6 mt-5">
-                        <form action="" method="POST">
+                        <form   method="POST"  id="contacto">
                             <div class="mb-3">
                                 <input type="text" name="txtNombre"
                                     id="txtNombre" class="form-control shadow"
@@ -104,10 +105,8 @@
 
 
             </section>
-
-
-            <section class="informacion">
-                <div class="container-fluid">
+            <footer>
+                <div class="container-fluid informacion">
                     <div class="row">
                         <div class="col-12 col-md-4 text-right">
                             <h2>información</h2>
@@ -118,58 +117,57 @@
                                         <i class="far fa-envelope-open"> </i>
                                         maxcarpinteria734@hotmail.com.ar</a>
                                 </div>
-
+    
                                 <div class="insta">
                                     <a
                                         href="https://www.instagram.com/maxcarpinteria/"
-                                        target="_blank"><i class="fab
-                                            fa-instagram"></i>
+                                        target="_blank"><i class="fab fa-instagram"></i>
                                         maxcarpinteria</a>
                                 </div>
-
+    
                                 <div>
                                     <a
                                         href="https://api.whatsapp.com/send?phone=5492323648560&text=Hola!quisiera
-                                        preguntar por un presupuesto"
-                                        target="_blank"><i class="fas
-                                            fa-mobile-alt"></i> +5492323648560
-                                    </a>
+                                        preguntar por un presupuesto""><i class="fas
+                                            fa-mobile-alt"></i> +5492323648560 </a>
                                 </div>
                             </div>
-
+    
                         </div>
-
+    
                         <div class="col-12 col-md-4 text-center">
-                            <a href="contacto.html"><img src="imagenes/logo.svg"
-                                    alt="logo"
-                                    width="200" height="200"></a>
+                            <a href="index.html"><img src="imagenes/logo.svg" alt="logo"
+                                    width="100" height="150"></a>
                         </div>
-
+    
                         <div class="col-12 col-md-4 horarios">
                             <h2>horarios de atención </h2>
                             <div>
                                 <p>Lun - Sab 8:30 - 12:30 <br>
-                                             14:00 - 18:30</p>
+                                            14:00 - 18:30</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <footer>
-
                 <div class="whatsapp">
                     <a
                         href="https://api.whatsapp.com/send?phone=5492323648560&text=Hola!quisiera
-                        preguntar por un presupuesto" target="_blank"><i
-                            class="fab
+                        preguntar por un presupuesto" target="_blank"><i class="fab
                             fa-whatsapp"></i></a>
                 </div>
-
+    
                 <div>
                     <p>© Todos los derechos reservados | 2021</p>
                 </div>
             </footer>
+
+            
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script src="js/enviarFormulario.js"></script>
             <script src="js/bootstrap.bundle.min.js"></script>
+            
+            
+
+            
         </body>
     </html>
