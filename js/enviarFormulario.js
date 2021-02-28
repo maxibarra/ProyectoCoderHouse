@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
    })
 function enviarFormulario(nombre, correo, mensaje) {
     Email.send({
-        SecureToken : "44fa6039-dd5f-4ea3-a709-b55dd5e461a0",
+        SecureToken : "46fb6390-2474-4d9b-9fd2-d5b433f7c0fa",
         To: "maxi.8379@gmail.com",
         From: "info@carpinteriamax.com",
         Subject: `Recibiste un mensaje de la pagina web`,
